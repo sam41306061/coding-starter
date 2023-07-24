@@ -1,7 +1,6 @@
+import logo from "./logo.png";
+import "./App.css";
 
-import logo from './logo.png';
-import './App.css';
- 
 function App() {
   return (
     <div>
@@ -12,7 +11,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Dapp University
+          AAVE DAI
         </a>
       </nav>
       <div className="container-fluid mt-5">
@@ -24,20 +23,16 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={logo} className="App-logo" alt="logo"/>
+                <img src={logo} className="App-logo" alt="logo" />
               </a>
-              <h1 className= "mt-5">Dapp University Starter Kit</h1>
-              <p>
-                Edit <code>src/frontend/components/App.js</code> and save to reload.
-              </p>
-              <a
-                className="App-link"
-                href="http://www.dappuniversity.com/bootcamp"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LEARN BLOCKCHAIN <u><b>NOW! </b></u>
-              </a>
+              <div className="content mx-auto mt-5">
+                {/* Added Ethereum Balance heading */}
+                <h2>Ethereum Balance</h2>
+                {/* Added DAI Balance heading */}
+                <h2>DAI Balance</h2>
+                {/* Added Borrow DAI button */}
+                <button onClick={() => alert("Borrow DAI")}>Borrow DAI</button>
+              </div>
             </div>
           </main>
         </div>
