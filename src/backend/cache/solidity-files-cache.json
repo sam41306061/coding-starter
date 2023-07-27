@@ -1,0 +1,224 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/sam4130/Documents/coding-challenge/coding-starter/src/backend/contracts/AaveDeFiApp.sol": {
+      "lastModificationDate": 1690429510488,
+      "contentHash": "a317c3a349943b370cae9f2d19883705",
+      "sourceName": "src/backend/contracts/AaveDeFiApp.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./DataTypes.sol",
+        "./ILendingPool.sol",
+        "./ILendingPoolAddressesProvider.sol",
+        "./IPriceOracle.sol",
+        "./IWETHGateway.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "AaveDeFiApp"
+      ]
+    },
+    "/Users/sam4130/Documents/coding-challenge/coding-starter/src/backend/contracts/DataTypes.sol": {
+      "lastModificationDate": 1690428978259,
+      "contentHash": "7026fa65e3498cb072bd7754d288aa86",
+      "sourceName": "src/backend/contracts/DataTypes.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "DataTypes"
+      ]
+    },
+    "/Users/sam4130/Documents/coding-challenge/coding-starter/src/backend/contracts/ILendingPool.sol": {
+      "lastModificationDate": 1690428963918,
+      "contentHash": "1d5ab539f218547d3faa4bc7ce623999",
+      "sourceName": "src/backend/contracts/ILendingPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ILendingPoolAddressesProvider.sol",
+        "./DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "ILendingPool"
+      ]
+    },
+    "/Users/sam4130/Documents/coding-challenge/coding-starter/src/backend/contracts/ILendingPoolAddressesProvider.sol": {
+      "lastModificationDate": 1690428973141,
+      "contentHash": "c9a447641f4eb95d5423acddc19c5a9c",
+      "sourceName": "src/backend/contracts/ILendingPoolAddressesProvider.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "ILendingPoolAddressesProvider"
+      ]
+    },
+    "/Users/sam4130/Documents/coding-challenge/coding-starter/src/backend/contracts/IPriceOracle.sol": {
+      "lastModificationDate": 1690429376134,
+      "contentHash": "e0935d6f2c9d7b542bf0b007982137cc",
+      "sourceName": "src/backend/contracts/IPriceOracle.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "IPriceOracle"
+      ]
+    },
+    "/Users/sam4130/Documents/coding-challenge/coding-starter/src/backend/contracts/IWETHGateway.sol": {
+      "lastModificationDate": 1690428955306,
+      "contentHash": "4942db6c230855f0183d63bf2e5b68bf",
+      "sourceName": "src/backend/contracts/IWETHGateway.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "IWETHGateway"
+      ]
+    }
+  }
+}
