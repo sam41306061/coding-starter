@@ -1,0 +1,254 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "asset",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "onBehalfOf",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint16",
+						"name": "referralCode",
+						"type": "uint16"
+					}
+				],
+				"name": "Deposit",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "reserve",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "WithDraw",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "amount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "assets",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_asset",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_onBehalfOf",
+						"type": "address"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_referralCode",
+						"type": "uint16"
+					}
+				],
+				"name": "depositDAI",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_asset",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_onBehalfOf",
+						"type": "address"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_referralCode",
+						"type": "uint16"
+					}
+				],
+				"name": "depositETH",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "to",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/backend/contracts/AaveDeFiApp.sol": "AaveDeFiApp"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/backend/contracts/AaveDeFiApp.sol": {
+			"keccak256": "0x80c95bb1473466496e506d4005baa2eb251662401d8fbc0ab2e604adf3feba9e",
+			"license": "agpl-3.0",
+			"urls": [
+				"bzz-raw://a08018d4b4747f7c7728ec6d840fe9441dda3ac3511a9fc9a8a6833f6eee6630",
+				"dweb:/ipfs/QmUyuNi3Qpq6uH2TLzLnPY4zEMaiWTT1RwvMmFaRJDjHgC"
+			]
+		},
+		"src/backend/contracts/DataTypes.sol": {
+			"keccak256": "0x2d38c1bceecde22f3c760ad3c29ca83ab310913abee8fc26a189a48b33834fb6",
+			"license": "agpl-3.0",
+			"urls": [
+				"bzz-raw://40692fbf44a826097eb9cec631ce817c35ff7c8e1c91c0f7007a3acdc8d32b27",
+				"dweb:/ipfs/QmPNKbBYqpBC8kmEkNuef97mVtsn616BxgWwduoGcJRT9P"
+			]
+		},
+		"src/backend/contracts/ILendingPool.sol": {
+			"keccak256": "0xeda55b5b93c29cd338cf2afe8633fe3f87e53dd13cdaeb2c2b7769a530632418",
+			"license": "agpl-3.0",
+			"urls": [
+				"bzz-raw://0d350c93d638f10f71af949a39aab7cbe259e21f4bdd1b151c5cadd2bbf9450c",
+				"dweb:/ipfs/QmNWvKAvF2SqQEPJ1sKWKwtixBGGzNPKfwto1WYgE4TLXm"
+			]
+		},
+		"src/backend/contracts/ILendingPoolAddressesProvider.sol": {
+			"keccak256": "0x5b0892ce8173a684b67f4981f096349bd7bc04cbd1a844d91a7990ab64407719",
+			"license": "agpl-3.0",
+			"urls": [
+				"bzz-raw://71fccc346471d4f37b5ba4cc33c06981d7cbaaa8f7ab1b6606659a1b39638ce8",
+				"dweb:/ipfs/QmeYzoGKxZohVa6TGHvRaCd2a4TvwMfwpKBY4J87ER2Ewu"
+			]
+		},
+		"src/backend/contracts/IPriceOracle.sol": {
+			"keccak256": "0x3c1199c906f7c638109ff08e48612a32c62ce96bccc5a035bd5db67b53d83987",
+			"license": "agpl-3.0",
+			"urls": [
+				"bzz-raw://3c83274f1deda19a119f7c4fa8e5ee5a14fa12c39fab936efa7207f9d2c4cef9",
+				"dweb:/ipfs/QmQ5o1QZG1h2UpBrheDsQYmn7v3j4YC6yfnFY7uKvSZM4X"
+			]
+		},
+		"src/backend/contracts/IWETHGateway.sol": {
+			"keccak256": "0x6fa2d889c2fc726310808da3237ecd9b812c0912b68fab7451400e651ae3c9c1",
+			"license": "agpl-3.0",
+			"urls": [
+				"bzz-raw://0bb3a5f63771289928805cfc26423d17e178593ad5946d1e64d2207b2b78d8dc",
+				"dweb:/ipfs/QmPdXQS73YkzioMb3wyZJSwrJRLBPaq1mHB6QG8E611hFw"
+			]
+		}
+	},
+	"version": 1
+}

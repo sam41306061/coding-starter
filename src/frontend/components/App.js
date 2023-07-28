@@ -39,7 +39,9 @@ const App = () => {
         >
           AAVE Connect
         </a>
-        <a className="navbar-brand col-sm-3 col-md-2 mr-0">Account:</a>
+        <a className="navbar-brand col-sm-3 col-md-2 mr-0">
+          Account:
+        </a>
       </nav>
       <div className="container-fluid mt-5">
         <div className="row">
