@@ -7,7 +7,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "_asset",
+          "name": "asset",
           "type": "address"
         }
       ],
@@ -25,52 +25,19 @@
     {
       "inputs": [
         {
-          "internalType": "address[]",
-          "name": "_assets",
-          "type": "address[]"
-        }
-      ],
-      "name": "getAssetsPrices",
-      "outputs": [
-        {
-          "internalType": "uint256[]",
-          "name": "",
-          "type": "uint256[]"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "getFallbackOracle",
-      "outputs": [
-        {
           "internalType": "address",
-          "name": "",
+          "name": "asset",
           "type": "address"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
+        },
         {
-          "internalType": "address",
-          "name": "_asset",
-          "type": "address"
+          "internalType": "uint256",
+          "name": "price",
+          "type": "uint256"
         }
       ],
-      "name": "getSourceOfAsset",
-      "outputs": [
-        {
-          "internalType": "address",
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "stateMutability": "view",
+      "name": "setAssetPrice",
+      "outputs": [],
+      "stateMutability": "nonpayable",
       "type": "function"
     }
   ],

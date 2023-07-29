@@ -1,7 +1,12 @@
 require("@nomiclabs/hardhat-waffle");
 
 module.exports = {
-  solidity: "0.6.12",
+  solidity: "0.8.4",
+  networks:{
+    hardhat:{
+      chainId: 1338
+    }
+  },
   paths: {
     artifacts: "./src/backend/artifacts",
     sources: "./src/backend/contracts",

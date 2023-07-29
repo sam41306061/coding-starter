@@ -161,6 +161,39 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_asset",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_depositAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_borrowAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_onBehalfOf",
+						"type": "address"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_referralCode",
+						"type": "uint16"
+					}
+				],
+				"name": "depositETHAndBorrowDAI",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "to",
 				"outputs": [
@@ -202,11 +235,11 @@
 	},
 	"sources": {
 		"src/backend/contracts/AaveDeFiApp.sol": {
-			"keccak256": "0x80c95bb1473466496e506d4005baa2eb251662401d8fbc0ab2e604adf3feba9e",
+			"keccak256": "0x37021be3f5a9fa5ebca494c3a05b4cfcbbd2afe3f452c0de57d685e9af76e400",
 			"license": "agpl-3.0",
 			"urls": [
-				"bzz-raw://a08018d4b4747f7c7728ec6d840fe9441dda3ac3511a9fc9a8a6833f6eee6630",
-				"dweb:/ipfs/QmUyuNi3Qpq6uH2TLzLnPY4zEMaiWTT1RwvMmFaRJDjHgC"
+				"bzz-raw://7639768dd88b323b61c3cec14a8a1e35e43c1e9e4c2ca09863a09fb7404a8e2e",
+				"dweb:/ipfs/QmW13H5gXq5bjLCVnqR74vjHDSzeLq52PiBxZsCWHSoTr6"
 			]
 		},
 		"src/backend/contracts/DataTypes.sol": {
