@@ -34,7 +34,7 @@ contract AaveDeFi {
     );
 
     constructor() {
-        provider = ILendingPoolAddressesProvider(address(0xB53C1a33016B2DC2fF3653530bfF1848a515c8c5)); 
+         provider = ILendingPoolAddressesProvider(address(0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e)); 
         addressLendingPool = provider.getLendingPool();
         lendingPool = ILendingPool(address(addressLendingPool));
         wethGateway = IWETHGateway(address(0xcc9a0B7c43DC2a5F023Bb9b738E45B0Ef6B06E04));
